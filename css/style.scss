@@ -7,14 +7,8 @@
 @import 'sass/_cores.scss';
 
 body {
-    color: azure;
     width: 100%;
-    background: transparent linear-gradient(180deg, #0F1825 0%, #0F1825 50%, #0D0D1B 100%) 0% 0%;
+    background: $azul;
     opacity: 1;
 }
-
-.border {
-    border: 1px solid cadetblue;
-}
-
 @import 'sass/_layout.scss';

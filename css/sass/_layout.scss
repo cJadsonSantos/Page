@@ -11,10 +11,12 @@
         width: 100%;
         border-radius: 10px;
         padding: 6px 6px;
+
+        &:hover {
+            transform: translate(-0%, -2%);
+        }
     }
 }
-
-
 
 @media screen and (max-width: 720px) {
     .container {
@@ -41,8 +43,6 @@
 }
 
 
-
-
 @media screen and(max-width: 720px) {
     .hero {
         height: auto;
@@ -60,7 +60,7 @@
 
 
 .logo {
-    margin-top: 40%;
+    margin-top: 5%;
     height: 100%;
     margin-bottom: 7%;
     text-align: center;
@@ -104,11 +104,11 @@
 }
 
 
-.personalizar-option{
+.personalizar-option {
     border: 50px;
-    background:$branco;
+    background: $branco;
     color: $azul;
-}  
+}
 
 .loader {
     width: 100%;
